@@ -1,4 +1,4 @@
-[![Video](RL.png)](https://vimeo.com/226695106)
+[![Video](https://github.com/imagry/Gym-Torcs-DQN/blob/master/RL.PNG)](https://vimeo.com/226695106)
 
 #### [Blog post with details and description.](http://www.imagry.co/?p=49609)
 
