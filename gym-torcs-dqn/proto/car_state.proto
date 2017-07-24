@@ -1,0 +1,27 @@
+package car_state;
+
+message CarState {
+    optional float angle=1;
+    optional float curLapTime=2;
+    optional float damage=3;
+    optional float distFromStart=4;
+    optional float totalDistFromStart=5;
+    optional float distRaced=6;
+    optional float fuel=7;
+    optional int32 gear=8;
+    optional float lastLapTime=9;
+    repeated float opponents=10;
+    optional float rpm=11;
+    optional float speedX=12;
+    optional float speedY=13;
+    optional float speedZ=14;
+    repeated float track=15;
+    optional float trackPos=16;
+    repeated float wheelSpinVel=17;
+    optional float z=18;
+    repeated float focus=19;
+    optional float steering=20;
+    optional float acceleration=21;
+    optional float breaking=22;
+    optional bytes img=23;
+}

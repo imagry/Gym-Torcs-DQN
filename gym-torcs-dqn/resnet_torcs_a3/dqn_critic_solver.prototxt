@@ -1,0 +1,24 @@
+test_iter: 0
+test_interval: 1000000
+base_lr: 1e-3
+clip_gradients: 10
+
+weight_decay: 0
+display: 1
+max_iter:1
+
+#lr_policy: "fixed"
+lr_policy: "step"
+gamma: 0.333
+stepsize: 50000
+momentum: 0.0
+
+snapshot: 10000000
+snapshot_prefix: "snapshot"
+
+solver_mode: GPU
+solver_type:SGD
+net: "/home/sergey/repo/gym-torcs/resnet_torcs_a3/critic_dqn.prototxt"
+#random_seed: 11
+
+
