@@ -525,7 +525,7 @@ drive(int index, tCarElt* car, tSituation *s)
         carState.add_tracksensorout(trackSensorOut[i]);
     }*/
     carState.set_trackpos(dist_to_middle);
-    std::cout << "dist_to_middle ************"<<dist_to_middle << " =====================";   
+    //std::cout << "dist_to_middle ************"<<dist_to_middle << " =====================";   
     for (int i = 0; i < 4; ++i) {
         carState.add_wheelspinvel(wheelSpinVel[i]);
     }
