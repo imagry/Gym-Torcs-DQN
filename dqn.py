@@ -726,7 +726,6 @@ def main():
                 if error_count >= max_errors/2:
                     print 'delta fail **************************'
                     rest_fail = i
-                    time_start = time_end
                     break
                 else:
                     error_count += 1
