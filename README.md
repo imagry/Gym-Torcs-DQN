@@ -90,6 +90,9 @@ How to start:
     save_in_iters = nnn
    - max number of steps per track, line 532 (each step take at least 0.4 second)
     max_steps = 5000
+- in ../resnet_torcs/dqn_critic_solver.prototxt replace net: parameter with
+    address of critic_dqn.prototxt, for example
+    net: /home/user/public_oss/Gym-Torcs-DQN/resnet_torcs/critic_dqn.prototxt
 
 - run python dqn.py
 
