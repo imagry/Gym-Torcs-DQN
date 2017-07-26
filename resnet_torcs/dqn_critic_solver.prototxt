@@ -18,7 +18,7 @@ snapshot_prefix: "snapshot"
 
 solver_mode: GPU
 solver_type:SGD
-net: "/home/sergey/repo/gym-torcs/resnet_torcs/critic_dqn.prototxt"
+net: "/home/user/repo/gym-torcs/resnet_torcs/critic_dqn.prototxt"
 #random_seed: 11
 
 

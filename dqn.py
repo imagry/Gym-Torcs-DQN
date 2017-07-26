@@ -33,7 +33,7 @@ i_done = 4
 i_pos = 5
 i_tid = 6
 play = False #no training
-current_dir = '/home/sergey/repo/gym-torcs/'
+current_dir = '/home/user/repo/gym-torcs/'
 
 def sign(x):
     return float(x > 0) - float(x < 0)
