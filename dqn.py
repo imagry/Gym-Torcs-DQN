@@ -823,7 +823,7 @@ def main():
             if do_store :
                 print 'add data, action', a_t[0],  'reward ', r_t
                 w_p = j
-                replay_buffer.add(s_t, a_t, r_t, s_t1, done, w_p, track_id, -1, -1)
+                replay_buffer.add(s_t, act_prev, r_t, s_t1, done, w_p, track_id, -1, -1)
                 print '***** stored: track_pos', track_pos, 'angle', observation.angle,\
                     'max_step', max_reached_step, 'Episode', i
             elif not play:
